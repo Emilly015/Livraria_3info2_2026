@@ -1,6 +1,6 @@
-from attr import fields
-from core.models.editora import Editora
 from rest_framework.serializers import ModelSerializer
+
+from core.models.editora import Editora
 
 
 class EditoraSerializer(ModelSerializer):

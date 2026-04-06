@@ -1,6 +1,6 @@
-from attr import fields
-from core.models import Categoria
 from rest_framework.serializers import ModelSerializer
+
+from core.models import Categoria
 
 
 class CategoriaSerializer(ModelSerializer):
